@@ -1,5 +1,5 @@
 :root {
-    --color-pink: #FF5693;
+    --color-red: #c35143;
     --color-dark: #000;
     --color-light: #FFF;
     --background-color: var(--color-light);
@@ -25,7 +25,7 @@ hr {
 }
 
 a, a:hover, a:visited {
-    color: var(--color-pink);
+    color: var(--color-red);
     cursor: pointer;
 }
 
@@ -45,7 +45,7 @@ h2 {
 }
 
 h2 i, h3 i, h4 i {
-    color: var(--color-pink) !important;
+    color: var(--color-red) !important;
 }
 
 h2 i.fa {
@@ -70,6 +70,12 @@ h5 {
     font-weight: bold;
     margin-bottom: 10px;
     line-height: 20px;
+}
+
+h5.normal {
+  font-weight: normal;
+  padding-top: 4px;
+  margin-bottom: 0px;
 }
 
 /* Container */
@@ -103,7 +109,7 @@ h5 {
 
 .name h1 {
     font-size: 26px;
-    color: var(--color-pink);
+    color: var(--color-red);
 }
 
 .name small {
@@ -111,15 +117,6 @@ h5 {
 }
 
 /* Header */
-.punchcard {
-    position: absolute;
-    height: 140px;
-    top: 112px;
-    left: 2px;
-    right: 4px;
-    background: url('../img/punchcard.png') repeat-x;
-}
-
 .img-header {
     margin-top: 61px;
     border-radius: 5px;
@@ -127,7 +124,7 @@ h5 {
 }
 
 .header-lead {
-    margin-top: 109px;
+    margin-top: 68px;
 }
 
 .lead {
@@ -139,6 +136,10 @@ h5 {
     border-radius: 20px;
     box-shadow: none;
     text-align: justify;
+}
+
+.lead strong {
+  color: var(--color-red) !important;
 }
 
 .lead .left-arrow{
@@ -163,7 +164,7 @@ h5 {
 }
 
 .job-details {
-    margin-top: -5px;
+    margin-top: 0px;
 }
 
 /* Skills */
@@ -189,11 +190,6 @@ p.skills {
         margin: 0;
         width: auto;
     }
-
-    .punchcard {
-        top: 0;
-        right: 2px;
-    }
 }
 
 /* Large screen breakpoint */
@@ -203,11 +199,7 @@ p.skills {
     }
 
     .header-lead {
-        margin-top: 20px;
-    }
-
-    .punchcard {
-        background-position: center;
+        margin-top: 10px;
     }
 
     .img-header {
