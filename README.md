@@ -1,12 +1,9 @@
 # Curriculum
 
-Voir mon CV : [https://tentacode.github.io/curriculum](http://tentacode.github.io/curriculum)
+Voir mon CV : [https://guillaume-siorak.fr](https://guillaume-siorak.fr)
 
 Ce CV a été réalisé avec :
 
-* Mes doigts ✌️
-* [Twitter Bootstrap](http://getbootstrap.com/)
-* [Font Awesome](http://fontawesome.io/)
-* [HTML Boilerplate](http://www.initializr.com/)
-
-N'hésitez pas à aller voir [mon site web](https://github.com/tentacode/tentacode.net) également.
+- [Twitter Bootstrap](http://getbootstrap.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [HTML Boilerplate](http://www.initializr.com/)
